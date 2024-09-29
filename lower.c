@@ -16,14 +16,12 @@ int main()
 int lower(c)
 int c;
 {
-    int d;
     if (c >=65 && c<=90)
     {
-        d=c+32;
+      return  c = c + 32;
     }
     else {
-        d=c;
+       return c;
     }
-    return (d);
     
 }
