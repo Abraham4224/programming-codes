@@ -1,3 +1,4 @@
+//This is the main class where other classes' objects like Edificio will be created
 public class Principal {
 
 	public static void main(String[] args) {
