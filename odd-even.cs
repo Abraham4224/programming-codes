@@ -1,3 +1,4 @@
+//Aks a number from the user and returns if it is an odd number or even number
 using System;
 
 class ParOImpar
