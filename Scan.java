@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//This is just to practice the input in Java
 public class Scan {
 
 	public static void main(String[] args) {
