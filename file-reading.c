@@ -9,4 +9,5 @@ int main()
         printf("%s",line);
     }
     fclose(hand); 
+    return 0;
 }
