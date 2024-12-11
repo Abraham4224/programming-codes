@@ -8,6 +8,6 @@ int main()
     while( fgets(line,1000,hand) != NULL ) {
         printf("%s",line);
     }
-    fclose(hand); 
+    fclose(hand); //Closes the file after reading
     return 0;
 }
