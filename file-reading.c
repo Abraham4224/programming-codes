@@ -2,7 +2,7 @@
 
 int main()
 {
-    char line[1000];
+    char line[1000]; // Array to store a line from the file
     FILE *hand; // Puntero para manejar el archivo
     hand = fopen("romeo.txt","r");
     while( fgets(line,1000,hand) != NULL ) {
