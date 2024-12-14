@@ -5,13 +5,13 @@ class Programa
     static void Main()
     {
         // Número de escalones
-        int escalones = 3;
+        int steps = 3;
 
         // Dibuja cada escalón
         for (int i = 1; i <= escalones; i++)
         {
             // Espacios antes de cada estrella
-            for (int j = 1; j <= escalones - i; j++)
+            for (int j = 1; j <= steps - i; j++)
             {
                 Console.Write(" ");
             }
